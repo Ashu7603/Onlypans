@@ -1,0 +1,193 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ------------------------------------------------------------x Main Code x------------------------------------------------------ */
+body{
+  display: flex;
+  flex-direction: column ;
+  font-family: "Comic Sans MS", "Comic Sans";
+  background-color: #FFE5B4;
+}
+
+.header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 50px;
+  background: rgb(15,146,236);
+  background: linear-gradient(86deg, rgba(15,146,236,1) 20%, rgba(61,172,204,1) 41%, rgba(75,196,208,1) 71%, rgba(109,222,231,1) 100%); 
+  color: whitesmoke;
+  font-family: "Rubik Vinyl", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 35px;
+}
+
+.con1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  background-color: #f9c768;
+}
+
+.banner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 600px;
+  border-radius: 10px;
+}
+
+.banner img{
+  width: 100%;
+  height: 100%;
+  border: 3px solid lightskyblue;
+  border-radius: 10px;
+  box-shadow: lightblue;
+}
+
+.con2{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  gap: 10px;
+}
+
+h2{
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.recipies{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  padding: 50px;
+}
+
+.b{
+  border: 2px solid ;
+  width: 200px;
+  height: 200px;
+}
+
+.b img{
+  width: 100%;
+  height: 100%;
+}
+
+.B{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+}
+
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 50px;
+  background: rgb(15,146,236);
+  background: linear-gradient(86deg, rgba(15,146,236,1) 20%, rgba(61,172,204,1) 41%, rgba(75,196,208,1) 71%, rgba(109,222,231,1) 100%); 
+  color: whitesmoke;
+}
+
+.con3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 50px;
+  background-color: #f5d290;
+}
+
+.para{
+  font-size: 20px;
+  width: 500px;
+  font-weight: bold;
+}
+
+ul{
+  list-style: none;
+  gap: 5px;
+}
+a{
+  text-decoration: none;
+}
+
+/*------------------------------------------------------------x Pizzah x-----------------------------------------------------------*/
+
+.list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #f9c768;
+}
+
+.Ingredients{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5d290;
+  margin: 20px 0;
+}
+
+
