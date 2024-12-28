@@ -186,8 +186,10 @@ a{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #f5d290;
+  background-color: #FFE5B4;
   margin: 20px 0;
+  padding: 10px;
+  border-radius: 5px;
 }
 
 
